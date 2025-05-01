@@ -1,0 +1,23 @@
+{
+    "featured":[{
+        "id":"1",
+        "avatar":"../divanWhite.png",
+        "name":"High-Back Bench",
+        "price":"$9,99"
+    },
+    {
+        "id":"2",
+        "avatar":"../divanFlower.png",
+        "name":"High-Back Bench",
+        "price":"$9,99"
+    },
+    {
+        "id":"3",
+        "avatar":"../divaniSalitniy.png",
+        "name":"High-Back Bench",
+        "price":"$9,99"
+    }
+]
+
+    
+}

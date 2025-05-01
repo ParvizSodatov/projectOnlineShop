@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+
+}
+ul{
+    /* border: 1px solid red; */
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    font-family: Montserrat;
+/* font-weight: 600; */
+font-size: 20px;
+line-height: 120%;
+letter-spacing: 0%;
+
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* background-color: rgb(134, 122, 122); */
+    color: white;
+    /* margin-top: 10px; */
+    padding-top: 10px;
+}
+nav p{
+font-size: 30px;
+
+}
+nav i{
+    font-size: 25px;
+}
+.counter{
+    background-color: red;
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+    padding: 0px 6px;
+    position: absolute;
+    left: 30px;
+    top: -10px;
+    /* font-size: 20px; */
+}
+.iconCounter{
+    position: relative;
+}
+.firstAside{
+    /* border: 1px solid red; */
+    /* width: 100%; */
+    height: 78vh;
+    padding: 50px;
+    margin-left: 20px;
+    
+}
+.objectOfFirstaside{
+    /* border: 1px solid red; */
+    margin-top: 170px;
+    line-height: 12vh;
+    margin-left: 100px;
+}
+.Rest{
+    font-family: Charm;
+font-weight: 700;
+font-size: 50px;
+/* line-height: 100%; */
+letter-spacing: 0%;
+
+}
+.Embrace{
+    font-family: Montserrat;
+font-weight: 500;
+font-size: 40px;
+/* line-height: 100%; */
+letter-spacing: 0%;
+
+}
+.ShowButon{
+    width: 170;
+height: 52;
+gap: 10px;
+border-radius: 4px;
+border-width: 1px;
+padding-top: 14px;
+padding-right: 20px;
+padding-bottom: 14px;
+padding-left: 20px;
+background-color: inherit;
+color: white;
+border:1px solid white;
+transition: background-color 0.2s ease;
+padding: 19px 60px;
+}
+.ShowButon:hover{
+    background-color: rgb(128, 130, 130);
+    color: black;
+}
+header{
+    background-image: url(../Rectangle\ 37.png);
+    background-size: 100% ;
+    color: white;
+}
+.Featured{
+    text-align: center;
+    font-size: 25px;
+}
+main{
+    margin-top: 20px;
+}
+.box{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.conteiner{
+    /* border: 1px solid red; */
+    text-align: center;
+}
+.price{
+    color: gray;
+    font-size: 20px;
+    margin-top: 5px;
+}
+.name{
+    margin-top: 10px    ;
+}
+.allProducts{
+  color: white;
+    background: #BA5D2C;
+    /* margin: auto;
+     */
+     /* text-align: center; */
+     display: flex;
+     justify-content: center;
+     padding: 10px 40px;
+     /* display: inline; */
+     /* margin: auto; */
+
+
+}
+.allProducts:hover{
+    background-color: #fcae84;
+    color: black;
+}
+.buttonShow{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+
+}
