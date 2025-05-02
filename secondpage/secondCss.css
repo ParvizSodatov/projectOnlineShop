@@ -146,3 +146,32 @@ padding: 10px;
     margin-top: 5px;
     gap: 50px;
 }
+
+
+@media(max-width:520px){
+    .comfyBlack{
+        display: none;
+    }
+ .secondSection{
+    flex-wrap: wrap;
+ }
+  
+  .firstAside{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  
+     /* margin-right: 200px; */
+     height: 18vh;
+     padding-top: 30px;
+     padding-bottom: 90px;
+  }
+  .Search{
+    margin-bottom: 20px;
+  }
+  .selectModel{
+padding: 20px;
+padding-top: 10px;
+  }
+}
