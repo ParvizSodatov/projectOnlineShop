@@ -147,3 +147,33 @@ main{
     margin-top: 20px;
 
 }
+a{
+    text-decoration: none;
+}
+.lia{
+    color: white;
+}
+
+
+
+
+
+
+
+@media(max-width:520px){
+.comfy{
+
+    display: none;
+}
+.firstAside{
+    /* text-align: start; */
+    width: 40%;
+    height: 16vh;
+}
+.box{
+    flex-wrap: wrap;
+    padding: 10px 0px;
+max-width: 20px;
+}
+
+}   

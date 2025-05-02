@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+}
+
+.ulNav{
+    /* border: 1px solid red; */
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    font-family: Montserrat;
+/* font-weight: 600; */
+font-size: 20px;
+line-height: 120%;
+letter-spacing: 0%;
+
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* background-color: rgb(134, 122, 122); */
+    color: black;
+    /* margin-top: 10px; */
+    padding-top: 10px;
+}
+nav p{
+font-size: 30px;
+
+}
+nav i{
+    font-size: 25px;
+    color: black;
+}
+.counter{
+    background-color: red;
+    color: black;
+    text-align: center;
+    border-radius: 10px;
+    padding: 0px 6px;
+    position: absolute;
+    left: 30px;
+    top: -10px;
+    /* font-size: 20px; */
+}
+.iconCounter{
+    position: relative;
+}
+.lia{
+    color: black;
+    text-decoration: none;
+}
+ul a{
+    color: black;
+    text-decoration: none;
+}
+.homeProducnt{
+    display: flex;
+    width: 1440;
+height: 244;
+top: 104px;
+padding-top: 107px;
+padding-right: 120px;
+padding-bottom: 107px;
+padding-left: 120px;
+gap: 10px;
+margin-top: 10px
+}
+.firstSeection{
+    background-color: #F1F5F8
+}
+.secondSection{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+.firstAside{
+/* border: 1px solid red; */
+width: 200px;
+height: 609px;
+padding: 10px;
+/* display: flex; */
+/* flex-wrap: wrap; */
+/* justify-content: space-around; */
+}
+.secondAside{
+    /* border: 1px solid red; */
+    width: 980px;
+    height: 
+    Hug (1,232px);
+    text-align: start;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    /* gap: 10px; */
+    
+
+}
+.firstAside ul{
+    list-style: none;
+    color: gray;
+    font-size: 20px;
+    line-height: 38px;
+    /* margin-right: 20px; */
+    margin-top: 30px;
+    margin-left: -20px;
+   
+}
+.firstAside input{
+    margin-top: 20px;
+    margin-left: 7px;
+    padding: 6px 15px;
+}
+.conteiner{
+    width: 310px;
+    height: 200px;
+    /* margin-top: 75px; */
+    text-align: center;
+    padding-bottom: 84px;
+}
+.avatar{
+    width: 310px;
+    height: 200px;
+}
+.shopIcon{
+    color: red;
+    margin-top: 5px;
+}
+.price{
+    margin-top: 5px;
+}
+.divForNameAndModel{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 5px;
+    gap: 50px;
+}
+.model{
+    font-size: 22px;
+    color: gray;
+}
+.divForPriceAndShop{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 5px;
+    gap: 50px;
+}
