@@ -1,6 +1,7 @@
 let secondAside=document.querySelector(".secondAside")
-
+import { searchUser } from "./api.js";
 function get(data) {
+    secondAside.innerHTML=""
     data.forEach(element => {
    let conteiner=document.createElement("div")
    conteiner.classList.add("conteiner")
@@ -34,5 +35,9 @@ conteiner.append(avatar,divForNameAndModel,divForPriceAndShop)
 
 
 // search
+let Search=document.querySelector(".Search")
+Search.oninput=()=>{
+    searchUser(Search.value.trim())
+}
 
 export default get

@@ -12,4 +12,16 @@ async function getData() {
     }
 }
 
+// search
+async function searchUser(value) {
+    try {
+        let {data}=await axios.get(`${API}?name=${value}`)
+        get(data)
+    } catch (error) {
+        console.log(error);
+        
+    }
+}
+
 export default getData
+export {searchUser}
