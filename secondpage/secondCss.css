@@ -73,11 +73,19 @@ margin-top: 10px
     display: flex;
     justify-content: space-around;
 }
+.Search{
+    margin-bottom: 20px;
+}
 .firstAside{
 /* border: 1px solid red; */
 width: 200px;
-height: 609px;
-padding: 10px;
+height: 100px;
+justify-content: space-around;
+/* padding: 10px; */
+display: flex;
+flex-wrap: wrap;
+/* gap: -900px; */
+align-items: center;
 /* display: flex; */
 /* flex-wrap: wrap; */
 /* justify-content: space-around; */
