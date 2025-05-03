@@ -23,77 +23,90 @@
     "avatar":"../divanWhite.png",
     "name":"High-Back Bench",
      "price":"$9,99",
-     "title":"Sofa"
+     "title":"Sofa",
+     "desk":"Furniture is an essential part of every home, office, and public space. It not only provides comfort and functionality but also reflects personal style and taste. From cozy sofas and elegant dining tables to practical office desks and storage units, furniture helps us organize our lives and create inviting environments.In modern interiors, furniture serves more than just a practical purpose. It defines the look and feel of a room. Minimalist, classic, rustic, or contemporary — each style tells a story. Choosing the right furniture means balancing comfort, quality, and design."
+
 },
 {
     "id":"2",
     "avatar":"../AlbanyTable.png",
     "name":"Albany Table",
      "price":"$79,99",
-       "title":"Sofa"
+       "title":"Sofa",
+     "desk":"Furniture is an essential part of every home, office, and public space. It not only provides comfort and functionality but also reflects personal style and taste. From cozy sofas and elegant dining tables to practical office desks and storage units, furniture helps us organize our lives and create inviting environments.In modern interiors, furniture serves more than just a practical purpose. It defines the look and feel of a room. Minimalist, classic, rustic, or contemporary — each style tells a story. Choosing the right furniture means balancing comfort, quality, and design. "
 },
 {
     "id":"3",
     "avatar":"../AccentChair.png",
     "name":"Accent Chair",
      "price":"$25,99",
-       "title":"Table"
+       "title":"Table",
+     "desk":"Furniture is an essential part of every home, office, and public space. It not only provides comfort and functionality but also reflects personal style and taste. From cozy sofas and elegant dining tables to practical office desks and storage units, furniture helps us organize our lives and create inviting environments.In modern interiors, furniture serves more than just a practical purpose. It defines the look and feel of a room. Minimalist, classic, rustic, or contemporary — each style tells a story. Choosing the right furniture means balancing comfort, quality, and design."
 },
 {
     "id":"4",
     "avatar":"../WoodenTable.png",
     "name":"Wooden Table",
      "price":"$45,99",
-       "title":"Chair"
+       "title":"Chair",
+     "desk":"Furniture is an essential part of every home, office, and public space. It not only provides comfort and functionality but also reflects personal style and taste. From cozy sofas and elegant dining tables to practical office desks and storage units, furniture helps us organize our lives and create inviting environments.In modern interiors, furniture serves more than just a practical purpose. It defines the look and feel of a room. Minimalist, classic, rustic, or contemporary — each style tells a story. Choosing the right furniture means balancing comfort, quality, and design.  "
 },
 {
     "id":"5",
     "avatar":"../DiningTable.png",
     "name":"Dining Table",
      "price":"$6,99",
-     "title":"Table"
+     "title":"Table",
+     "desk":"Furniture is an essential part of every home, office, and public space. It not only provides comfort and functionality but also reflects personal style and taste. From cozy sofas and elegant dining tables to practical office desks and storage units, furniture helps us organize our lives and create inviting environments.In modern interiors, furniture serves more than just a practical purpose. It defines the look and feel of a room. Minimalist, classic, rustic, or contemporary — each style tells a story. Choosing the right furniture means balancing comfort, quality, and design.  "
 },
 {
     "id":"6",
     "avatar":"../divaniSalitniy.png",
     "name":"Sofa Set",
      "price":"$69,99",
-     "title":"Sofa"
+     "title":"Sofa",
+     "desk":"Furniture is an essential part of every home, office, and public space. It not only provides comfort and functionality but also reflects personal style and taste. From cozy sofas and elegant dining tables to practical office desks and storage units, furniture helps us organize our lives and create inviting environments.In modern interiors, furniture serves more than just a practical purpose. It defines the look and feel of a room. Minimalist, classic, rustic, or contemporary — each style tells a story. Choosing the right furniture means balancing comfort, quality, and design. "
 },
 {
     "id":"7",
     "avatar":"../ModernBookshelf.png",
     "name":"Modern Bookshelf",
      "price":"$8,99",
-     "title":"Shfaner"
+     "title":"Shfaner",
+     "desk":"Furniture is an essential part of every home, office, and public space. It not only provides comfort and functionality but also reflects personal style and taste. From cozy sofas and elegant dining tables to practical office desks and storage units, furniture helps us organize our lives and create inviting environments.In modern interiors, furniture serves more than just a practical purpose. It defines the look and feel of a room. Minimalist, classic, rustic, or contemporary — each style tells a story. Choosing the right furniture means balancing comfort, quality, and design."
 },
 {
     "id":"8",
     "avatar":"../EmperorBed.png",
     "name":"Emperor Bed",
      "price":"$21,99",
-     "title":"Chair"
+     "title":"Chair",
+     "desk":"Furniture is an essential part of every home, office, and public space. It not only provides comfort and functionality but also reflects personal style and taste. From cozy sofas and elegant dining tables to practical office desks and storage units, furniture helps us organize our lives and create inviting environments.In modern interiors, furniture serves more than just a practical purpose. It defines the look and feel of a room. Minimalist, classic, rustic, or contemporary — each style tells a story. Choosing the right furniture means balancing comfort, quality, and design.  "
 },
 {
     "id":"9",
     "avatar":"../UtopiaSofa.png",
     "name":"Utopia Sofa",
      "price":"$35,95",
-     "title":"Sofa"
+     "title":"Sofa",
+     "desk":"Furniture is an essential part of every home, office, and public space. It not only provides comfort and functionality but also reflects personal style and taste. From cozy sofas and elegant dining tables to practical office desks and storage units, furniture helps us organize our lives and create inviting environments.In modern interiors, furniture serves more than just a practical purpose. It defines the look and feel of a room. Minimalist, classic, rustic, or contemporary — each style tells a story. Choosing the right furniture means balancing comfort, quality, and design.  "
+
 },
 {
     "id":"10",
     "avatar":"../EntertainmentCenter.png",
     "name":"Entertainment Center",
      "price":"$29,98",
-     "title":"Sofa"
+     "title":"Sofa",
+     "desk":"Furniture is an essential part of every home, office, and public space. It not only provides comfort and functionality but also reflects personal style and taste. From cozy sofas and elegant dining tables to practical office desks and storage units, furniture helps us organize our lives and create inviting environments.In modern interiors, furniture serves more than just a practical purpose. It defines the look and feel of a room. Minimalist, classic, rustic, or contemporary — each style tells a story. Choosing the right furniture means balancing comfort, quality, and design."
 },
 {
     "id":"12",
     "avatar":"../AlbanySectional.png",
     "name":"Albany Sectional",
      "price":"$10,99",
-     "title":"Shfaner"
+     "title":"Shfaner",
+     "desk":"Furniture is an essential part of every home, office, and public space. It not only provides comfort and functionality but also reflects personal style and taste. From cozy sofas and elegant dining tables to practical office desks and storage units, furniture helps us organize our lives and create inviting environments.In modern interiors, furniture serves more than just a practical purpose. It defines the look and feel of a room. Minimalist, classic, rustic, or contemporary — each style tells a story. Choosing the right furniture means balancing comfort, quality, and design.  "
     
 },
 
@@ -102,7 +115,8 @@
     "avatar":"../LeatherSofa.png",
     "name":"Leather Sofa",
      "price":"$9,99",
-     "title":"Sofa"
+     "title":"Sofa",
+     "desk":"Furniture is an essential part of every home, office, and public space. It not only provides comfort and functionality but also reflects personal style and taste. From cozy sofas and elegant dining tables to practical office desks and storage units, furniture helps us organize our lives and create inviting environments.In modern interiors, furniture serves more than just a practical purpose. It defines the look and feel of a room. Minimalist, classic, rustic, or contemporary — each style tells a story. Choosing the right furniture means balancing comfort, quality, and design.  "
 }
 
 

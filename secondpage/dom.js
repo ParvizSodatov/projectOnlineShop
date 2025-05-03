@@ -7,6 +7,11 @@ function get(data) {
    conteiner.classList.add("conteiner")
 let avatar=document.createElement("img")
 avatar.src=element.avatar
+avatar.onclick=()=>{
+
+    localStorage.setItem("product",element.id)
+    window.location.href="../infoPage/infoPage.html"
+}
 avatar.classList.add("avatar")
 let divForNameAndModel=document.createElement("div")
 divForNameAndModel.classList.add("divForNameAndModel")
