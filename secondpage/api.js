@@ -16,6 +16,7 @@ async function getData() {
 async function searchUser(value) {
     try {
         let {data}=await axios.get(`${API}?name=${value}`)
+        
         get(data)
     } catch (error) {
         console.log(error);
@@ -23,5 +24,27 @@ async function searchUser(value) {
     }
 }
 
+
+// selectProduct
+async function selectProduct(value) {
+    try {
+        let {data}=await axios.get(`${API}?title=${value}`)
+        get(data)
+    } catch (error) {
+        console.log(error);
+        
+    }
+}
+
+// showAllProduct
+async function showALLProduct() {
+    try {
+        let {data}=await axios.get(API)
+        get(data)
+    } catch (error) {
+        console.log(error);
+        
+    }
+}
 export default getData
-export {searchUser}
+export {searchUser,selectProduct,showALLProduct}

@@ -1,5 +1,5 @@
 let secondAside=document.querySelector(".secondAside")
-import { searchUser } from "./api.js";
+import { searchUser,selectProduct,showALLProduct } from "./api.js";
 function get(data) {
     secondAside.innerHTML=""
     data.forEach(element => {
@@ -44,5 +44,16 @@ let Search=document.querySelector(".Search")
 Search.oninput=()=>{
     searchUser(Search.value.trim())
 }
+// select
 
+let selectModel=document.querySelector(".selectModel")
+selectModel.onclick=()=>{
+    if(selectModel.value=="All"){
+        showALLProduct(selectModel.value)
+    }
+    else{
+        selectProduct(selectModel.value)
+    }
+
+}
 export default get

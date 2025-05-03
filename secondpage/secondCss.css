@@ -151,10 +151,27 @@ align-items: center;
     margin-top: 5px;
     gap: 50px;
 }
+main{
+    position: relative;
+}
 .korzina{
-    border: 1px solid red;
+    border: 1px solid gray;
     width: 300px;
     height:80vh;
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-color: white;
+    display: none;
+}
+.cancel{
+    background-color: red;
+    color: white;
+    display: flex;
+    justify-content: end;
+    margin-left: 280px;
+    border: 1px solid gray;
+    padding: 0px 5px;
 }
 
 
