@@ -1,5 +1,8 @@
 let secondAside=document.querySelector(".secondAside")
-import { searchUser,selectProduct,showALLProduct } from "./api.js";
+let INrange=document.querySelector(".INrange")
+let spanValue=document.querySelector(".spanValue")
+import { searchUser,selectProduct,showALLProduct,rangrPrice } from "./api.js";
+let korzina=document.querySelector(".korzina")
 function get(data) {
     secondAside.innerHTML=""
     data.forEach(element => {
@@ -23,9 +26,13 @@ model.classList.add("model")
 let divForPriceAndShop=document.createElement("div")
 divForPriceAndShop.classList.add("divForPriceAndShop")
 let price=document.createElement("p")
-price.innerHTML=element.price
+price.innerHTML=element.price+"$"
 price.classList.add("price")
 let shopIcon=document.createElement("i")
+shopIcon.onclick=()=>{
+    korzina.style.display="block"
+    localStorage.setItem("element",JSON.stringify(element))
+}
 divForNameAndModel.append(name,model)
 divForPriceAndShop.append(price,shopIcon)
 shopIcon.classList.add("fa-solid","fa-cart-shopping","shopIcon")
@@ -56,4 +63,11 @@ selectModel.onclick=()=>{
     }
 
 }
+INrange.onchange=()=>{
+    spanValue.innerHTML=`${INrange.value}$`
+    rangrPrice(+INrange.value)
+}
+
+
+
 export default get

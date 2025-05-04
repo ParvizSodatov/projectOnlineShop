@@ -100,6 +100,8 @@ align-items: center;
     
 
 }
+
+
 .firstAside ul{
     list-style: none;
     color: gray;
@@ -109,6 +111,10 @@ align-items: center;
     margin-top: 30px;
     margin-left: -20px;
    
+}
+.conteinerShop{
+    border: 1px solid red;
+    width: 250px;
 }
 .firstAside input{
     margin-top: 20px;
@@ -151,27 +157,52 @@ align-items: center;
     margin-top: 5px;
     gap: 50px;
 }
-main{
-    position: relative;
-}
+
 .korzina{
     border: 1px solid gray;
-    width: 300px;
-    height:80vh;
+    width: 400px;
+    height:300vh;
     position: absolute;
     right: 0;
     top: 0;
     background-color: white;
     display: none;
+    transition: right 0.4s ease-in-out;
 }
-.cancel{
+.cancel{    
     background-color: red;
     color: white;
-    display: flex;
-    justify-content: end;
-    margin-left: 280px;
+    /* display: flex; */
+    /* justify-content: end; */
+    /* margin-left: 280px; */
     border: 1px solid gray;
     padding: 0px 5px;
+}
+.selectModel{
+    width: 150px;
+    height: 30px;
+}
+.INrange {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    appearance: none; 
+}
+
+.INrange::-webkit-slider-thumb {
+    appearance: none;
+    width: 16px;
+    height: 16px;
+    background-color: gray;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-top: -6px; 
+}
+
+.INrange::-webkit-slider-runnable-track {
+    height: 4px;
+    background-color: lightgray;
+    border-radius: 4px;
 }
 
 
@@ -181,6 +212,7 @@ main{
     }
  .secondSection{
     flex-wrap: wrap;
+
  }
   
   .firstAside{
@@ -189,7 +221,7 @@ main{
     justify-content: space-around;
     flex-wrap: wrap;
   
-     /* margin-right: 200px; */
+     
      height: 18vh;
      padding-top: 30px;
      padding-bottom: 90px;

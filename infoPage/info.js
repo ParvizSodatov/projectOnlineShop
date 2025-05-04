@@ -5,17 +5,22 @@ let ID=localStorage.getItem("product")
 let img=document.querySelector(".avatar")
 let aside_right=document.querySelector(".aside_right")
 async function getData() {
+  
     try {
         let {data}=await axios.get(`${API}?id=${ID}`)
         get(data)
     } catch (error) {
         console.log(error);    
     }
+
 }
 getData()
+
 function get(data){
   data.forEach(element => {
     img.src=element.avatar
+
+
 let name=document.createElement("h1")
 name.innerHTML=element.name
 name.classList.add("name")

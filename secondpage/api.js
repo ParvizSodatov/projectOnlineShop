@@ -46,5 +46,22 @@ async function showALLProduct() {
         
     }
 }
+async function rangrPrice(value) {
+    try {
+        let response=await axios.get(API)
+        if(value==0){
+            get(response.data)
+        }
+        else{
+            let filter=response.data.filter(({price})=>price<=value)
+            get(filter)
+        }
+    } catch (error) {
+        console.log(error);
+        
+    }
+}
+
+
 export default getData
-export {searchUser,selectProduct,showALLProduct}
+export {searchUser,selectProduct,showALLProduct,rangrPrice}
